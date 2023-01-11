@@ -78,6 +78,7 @@ st.markdown(
     "<h1><span style='color: white;'>Alzheimer's Disease Stage Classification</span></h1>",
     unsafe_allow_html=True
 )
+st.markdown("**🚫 This App is relevant to doctors and anyone else that has already been diagnosed with Alzheimer's disease 🚫**")
 
 
 st.sidebar.title("Navigation")
@@ -130,7 +131,7 @@ else:
     This project is designed to classify the stage of Alzheimer's disease in patients by analyzing brain scan images. 
     The model was trained on a dataset of brain scans and uses a convolutional neural network (CNN) to make predictions.
     """)
-    st.write("Alzheimer's Disease is a progressive disorder that destroys memory and other important mental functions. It is the most common cause of dementia among older adults.")
+    st.write("Alzheimer's Disease is a progressive disorder that destroys memory and other important mental functions. It is the most common cause of dementia among older adults. The main aim of creating this app is to classify the stage of dementia for patients already diagnosed with the Alzheimer's disease.")
     st.write("Symptoms of Alzheimer's disease include: ")
     st.write("- Memory loss that disrupts daily life.")
     st.write("- Challenges in planning or solving problems.")
