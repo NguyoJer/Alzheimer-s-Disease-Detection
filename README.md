@@ -1,3 +1,4 @@
+![brain-scans-control](https://user-images.githubusercontent.com/106226707/212004815-a18049cf-6d8a-41d8-aeab-e09101e185ae.jpg)
 
 # IMAGE CLASSIFICATION
 # Alzheimers Disease Classification Using MRI images
