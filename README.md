@@ -80,3 +80,10 @@ The data was sourced from kaggle [website](https://www.kaggle.com/datasets/touri
 * Tensorflow
 * Streamlit
 * Seaborn
+
+## Models Used:
+* VGG16
+* VGG19
+* EfficientNetB0
+* DenseNet
+* Sequential
