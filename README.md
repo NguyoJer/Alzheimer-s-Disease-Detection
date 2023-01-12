@@ -1,7 +1,6 @@
 ![brain-scans-control](https://user-images.githubusercontent.com/106226707/212004815-a18049cf-6d8a-41d8-aeab-e09101e185ae.jpg)
 
-# IMAGE CLASSIFICATION
-# Alzheimers Disease Classification Using MRI images
+# Classification of Alzheimer's Disease using MRI Images
 Project status: `Completed`
 
 Authors:
@@ -10,7 +9,7 @@ Authors:
 
 [Jeremy Nguyo](https://github.com/NguyoJer)
 
-[Getrude Obwage](https://github.com/Getty3102)
+[Getrude Obwoge](https://github.com/Getty3102)
 
 [Jane NJuguna](https://github.com/janejeshen)
 
@@ -18,66 +17,31 @@ Authors:
 
 [Amos Pride](https://github.com/amoskiito)
 
-[Collins KIptoo](https://github.com/Collins-Kiptoo)
+[Collins Kiptoo](https://github.com/Collins-Kiptoo)
 
-# Business Understanding
-## Project Goal
-The goal of the project is to develop a method for classifying Alzheimer's disease using MRI images. This will involve analyzing the structural changes in the brain that occur as a result of the disease and using machine learning techniques to accurately identify and classify individuals with Alzheimer's. The ultimate goal is to improve the accuracy and speed of diagnosing Alzheimer's disease, which will aid in early detection and treatment.
+# Project Goal
 
-## Problem Statement
+This project is designed to classify the stage of Alzheimer's disease in patients by analyzing brain scan images. The model was trained on a dataset of brain scans and uses a convolutional neural network (CNN) to make predictions.
+Alzheimer's Disease is a progressive disorder that destroys memory and other important mental functions. It is the most common cause of dementia among older adults. The main aim of creating this app is to classify the stage of dementia for patients already diagnosed with the Alzheimer's disease.
 
 # Data Understanding
+We used two dataset in our project, the first one was used for explolatory data analysis and the second was used for modelling
+
 The first dataset has 436 rows and 11 columns.
 
-The second data set contains 6400 entries consisting of mri images belonging to 4 classes
-## Column Descriptions:
+The second dataset consists of MRI images of the brain of individuals diagnosed with Alzheimer's disease. The dataset is divided into a training set and a test set. The dataset contains 6400 MRI images.
 
-Subject.ID: Unique identifier for the Alzheimer's patients.
-
-MRI.ID: Unique identifier for the MRI scans
-
-Group (Converted / Demented / Nondemented): The column tells whether the Alzheimers patient is demented or not also whether the patient was the patient was non demented but was diagnosed as demented after a couple of visits.
-
-Visit- Number of visit: The number of times the patient
-
-MR.Delay
-
-`Demographics Info`
-
-M.F - Gender of the patient.
-
-Hand - Handedness (actually all subjects were right-handed so I will drop this column)
-
-Age - Age of the patient
-
-EDUC - Years of education
-
-SES - Socioeconomic status as assessed by the Hollingshead Index of Social Position and classified into categories from 1 (highest status) to 5 (lowest status)
-
-`Clinical Info`
-
-MMSE - Mini-Mental State Examination score (range is from 0 = worst to 30 = best)
-
-CDR - Clinical Dementia Rating (0 = no dementia, 0.5 = very mild dementia, 1 = mild dementia, 2 = moderate dementia)
-
-Derived Anatomic Volumes
-
-eTIV - Estimated total intracranial volume, mm3
-
-nWBV - Normalized whole-brain volume, expressed as a percent of all voxels in the atlas-masked image that are labeled as gray or white matter by the automated tissue segmentation process
-
-ASF - Atlas scaling factor (unitless). Computed scaling factor that transforms native-space brain and skull to the atlas target (i.e., the determinant of the transform matrix)
+## Preprocessing:
+The MRI images were preprocessed to standardize their size and intensity levels. The images were resized to 150x150 pixels.
 
 ## Data source: 
-
-The data was sourced from kaggle [website](https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images)
+The datasets were sourced from kaggle [first dataset](https://www.kaggle.com/code/obrienmitch94/alzheimer-s-analysis/data) and [second dataset](https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images)
 
 ## Technologies Used:
 * python 
 * pandas
 * matplotlib
 * scikit-learn
-* statsmodel
 * Tensorflow
 * Streamlit
 * Seaborn
@@ -89,4 +53,14 @@ The data was sourced from kaggle [website](https://www.kaggle.com/datasets/touri
 * DenseNet
 * Sequential
 
+## Best models:
 
+The best model was a convolutional neural network.The model was trained using the Adam optimizer and a categorical cross-entropy loss function. The model was evaluated using metrics such as accuracy, precision and  recall.
+The model achieved an accuracy of 95%, a precision of 95%, and a recall of 95%. These results indicate that the model is able to accurately classify the level of dimentia on individuals diagnosed with Alzheimer's disease
+
+## Limitations:
+
+This project has some limitations. The dataset used in this project is small and further research is needed to validate the results on larger datasets. 
+
+## How to use the codes:
+The code for this project can be run using Python 3 and TensorFlow tensorflow==2.3.1. To use the model, you will need to install the necessary dependencies and input new MRI images for classification. The instructions for using the model are provided in the code.
