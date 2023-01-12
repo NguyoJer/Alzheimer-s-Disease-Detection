@@ -1,4 +1,3 @@
-![img](.https://images.app.goo.gl/P5AszgC3qoT1cjRN7)
 
 # IMAGE CLASSIFICATION
 # Alzheimers Disease Classification Using MRI images
@@ -71,19 +70,7 @@ ASF - Atlas scaling factor (unitless). Computed scaling factor that transforms n
 
 The data was sourced from kaggle [website](https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images)
 
-
-
-## Alzheimers Disease Classification Using MRI images
-
-** Project status: ** Completed
-
-## Dataset
-The data set contains 6400 entries consisting of mri images belonging to 4 classes
-
-## Data source: 
-The data was sourced from kaggle [website](https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images)
-
-## Technologies:
+## Technologies Used:
 * python 
 * pandas
 * matplotlib
