@@ -17,6 +17,7 @@ Authors:
 [Abduba Galgalo]()
 
 [Amos Pride](https://github.com/amoskiito)
+
 [Collins KIptoo](https://github.com/Collins-Kiptoo)
 
 # Business Understanding
