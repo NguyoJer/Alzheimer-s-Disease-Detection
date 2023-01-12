@@ -23,7 +23,7 @@ Authors:
 # Business Understanding
 ## Project Goal
 The goal of the project is to develop a method for classifying Alzheimer's disease using MRI images. This will involve analyzing the structural changes in the brain that occur as a result of the disease and using machine learning techniques to accurately identify and classify individuals with Alzheimer's. The ultimate goal is to improve the accuracy and speed of diagnosing Alzheimer's disease, which will aid in early detection and treatment.
-## Overview
+
 ## Problem Statement
 
 # Data Understanding
@@ -88,3 +88,5 @@ The data was sourced from kaggle [website](https://www.kaggle.com/datasets/touri
 * EfficientNetB0
 * DenseNet
 * Sequential
+
+
