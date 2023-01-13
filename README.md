@@ -1,6 +1,6 @@
 ![1-s2 0-S2772528622000280-gr004](https://user-images.githubusercontent.com/106226707/212156906-8196a6f6-0bee-4c20-8248-5e1103533d72.jpg)
 
-# Classification of Alzheimer's Disease using MRI Images
+# Classification Of Level of Dimentia On Alzheimer's Disease Patients Using MRI Images
 Project status: `Completed`
 
 Authors:
