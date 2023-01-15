@@ -55,7 +55,7 @@ The datasets were sourced from kaggle [first dataset](https://www.kaggle.com/cod
 
 ## Best model:
 
-The best model was a convolutional neural network.The model was trained using a CNN architecture, Adam optimizer and a categorical cross-entropy loss function. The model was evaluated using the recall score. We chose to use the recall score because given that this is a medical project,it is safer for one to be diagnosed with the disease even if they do not have it(higher false positives) rather than being classified as not having the disease yet they have the disease(lower false positives). Consequences of the latter are more severe.
+The best model was a convolutional neural network.The model was trained using the Adam optimizer and a categorical cross-entropy loss function. The model was evaluated using the recall score. We chose to use the recall score because given that this is a medical project,it is safer for one to be diagnosed with the disease even if they do not have it(higher false positives) rather than being classified as not having the disease yet they have the disease(lower false negatives). Consequences of the latter are more severe.
 The model achieved an accuracy of 97%,precision-97% and a recall-97. The high recall and precision scores suggest that the model low false positive and negative rates.
 
 ## Limitations:
